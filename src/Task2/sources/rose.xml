@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<flower xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation = "fl.xsd">
+        
+  <name>Rose</name>
+  <soil>sod-podzolic</soil>
+  <origin>Ukraine</origin>
+  <visual_param>
+    <stem_color>green</stem_color>
+    <leaf_color>red</leaf_color>
+    <avg_size>small</avg_size>
+  </visual_param>
+  <grow_tips>
+    <temp>3.00</temp>
+    <lighting>false</lighting>
+    <watering>110.00</watering>
+  </grow_tips>
+  <multiplying>seeds</multiplying>
+</flower>

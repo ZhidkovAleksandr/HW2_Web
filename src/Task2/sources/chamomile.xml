@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<flower xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation = "fl.xsd">
+        
+  <name>Chamomile</name>
+  <soil>ground</soil>
+  <origin>Ukraine</origin>
+  <visual_param>
+    <stem_color>green</stem_color>
+    <leaf_color>white</leaf_color>
+    <avg_size>small</avg_size>
+  </visual_param>
+  <grow_tips>
+    <temp>1.00</temp>
+    <lighting>true</lighting>
+    <watering>100.00</watering>
+  </grow_tips>
+  <multiplying>cuttings</multiplying>
+</flower>

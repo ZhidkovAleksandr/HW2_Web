@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="flower">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="soil">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="podzolic"/>
+            <xs:enumeration value="ground"/>
+	    <xs:enumeration value="sod-podzolic"/>
+         </xs:restriction>   
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="origin" type="xs:string" default="Ukraine"/>
+      <xs:element name="visual_param">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="stem_color" type="xs:string"/>
+            <xs:element name="leaf_color" type="xs:string"/>
+            <xs:element name="avg_size" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    <xs:element name="grow_tips">
+    <xs:complexType>
+          <xs:sequence>
+            <xs:element name="temp" type="xs:decimal"/>
+            <xs:element name="lighting" type="xs:boolean"/>
+            <xs:element name="watering" type="xs:decimal"/>
+          </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="multiplying">
+    <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="leafs"/>
+            <xs:enumeration value="cuttings"/>
+	    <xs:enumeration value="seeds"/>
+          </xs:restriction>
+        </xs:simpleType>
+    </xs:element>  
+    </xs:sequence>
+    
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

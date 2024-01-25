@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factory xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation = "s2.xsd">
+  <candy>
+    <name>snickers</name>
+    <taste>peanut</taste>
+    <color>brown</color>
+  </candy>
+   <candy>
+    <name>bounty</name>
+    <taste>coconut</taste>
+    <color>black</color>
+   </candy>
+    <candy>
+    <name>twix</name>
+    <taste>caramel</taste>
+    <color>brown</color>
+  </candy>
+</factory>
